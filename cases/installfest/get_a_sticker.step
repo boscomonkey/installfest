@@ -12,7 +12,7 @@ cd ..
   note "Now, for the final verification steps..."
 
   console <<-BASH
-rails new suggestotron -m https://raw.github.com/boscomonkey/workshop-kickstart/master/bash.rb
+rails new suggestotron -m http://dl.dropbox.com/u/4661656/rails/bash.rb
 cd suggestotron
 rake cucumber
   BASH
