@@ -38,7 +38,6 @@ step "Choose your instructions" do
   option "Snow Leopard" do
     note "If the standard install instructions don't work, you can try these:"
 
-    link "osx_snow_leopard_with_bootstrap"
     link "osx_snow_leopard_without_homebrew"
    end
 
