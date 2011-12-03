@@ -4,6 +4,13 @@ note "Find a volunteer and have them watch the next steps."
 note "If this works - get a sticker from them for your computer!"
 
 verify "rails installation" do
+  note "If you are still in the directory from the last steps, you will need to move one level up the directory structure. Double check this with a volunteer."
+  console <<-BASH
+cd ..
+  BASH
+
+  note "Now, for the final verification steps..."
+
   console <<-BASH
 rails new suggestotron -m https://raw.github.com/boscomonkey/workshop-kickstart/master/bash.rb
 cd suggestotron
